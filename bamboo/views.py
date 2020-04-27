@@ -1,3 +1,5 @@
 from django.shortcuts import render
 
-# Create your views here.
+def index(request):
+    # template配下にある
+    return render(request, 'bamboo/index.html')

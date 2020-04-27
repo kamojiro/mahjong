@@ -1,3 +1,8 @@
 /venv/
 /mahjongs/
 */migrations/
+/leads/
+/db.sqlite3
+*/node_modules/
+*/__pycache__/
+
