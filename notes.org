@@ -1,0 +1,17 @@
+** Pythonの仮想環境とプロジェクトの設定
+   python -m venv venv
+   https://www.saintsouth.net/blog/construct-python-venv-on-centos-and-aws/
+   ここだけで使う環境の準備
+   source venv/bin/activate
+   で移動
+** djangoのインストールとDjango appのビルド
+   pip install django djangorestframework
+   django-admin startproject mahjongs .
+
+** Djangoアプリケーションの作成
+   通常のDjangoの場合は次のコマンドで起動する
+   django-admin startapp app_name
+   今回は、
+   django-admin startapp bamboo
+   django_react/settings.pyのINSTALLED_APPSに新しく作ったアプリを追加して有効化する
+   'leads.app.LeadsConfig'
