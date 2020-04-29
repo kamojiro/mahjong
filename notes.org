@@ -20,3 +20,13 @@
    mkdir -p ./bamboo/src/components
    mkdir -p ./bamboo/{static,templates}/frontend
 
+   npm run dev
+
+   python manage.py runserver
+
+
+* React
+** Component
+   https://ja.reactjs.org/docs/react-component.html
+*** 
+
